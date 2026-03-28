@@ -1,10 +1,11 @@
 # My Weather App
 
-A simple Python CLI app that displays the current temperature and humidity for any city in the world.
+A simple Python CLI app that displays the current weather and local time for any city in the world.
 
 ## Features
 - Search by city name
 - Choose between Celsius and Fahrenheit
+- Displays the current local time and timezone of the selected city
 - No API key required
 
 ## Requirements
@@ -22,6 +23,7 @@ You will be prompted to:
 ### Example output
 ```
 Weather for Durban, South Africa
+  Local time  : 2026-03-28 14:00 (Africa/Johannesburg)
   Temperature : 33.6°C
   Humidity    : 53%
 ```
