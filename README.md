@@ -5,6 +5,7 @@ A simple Python CLI app that displays the current weather and local time for any
 ## Features
 - Search by city name
 - Choose between Celsius and Fahrenheit
+- Displays the latitude and longitude of the selected city
 - Displays the current local time and timezone of the selected city
 - No API key required
 
@@ -23,6 +24,8 @@ You will be prompted to:
 ### Example output
 ```
 Weather for Durban, South Africa
+  Latitude    : -29.8579
+  Longitude   : 31.0292
   Local time  : 2026-03-28 14:00 (Africa/Johannesburg)
   Temperature : 33.6°C
   Humidity    : 53%

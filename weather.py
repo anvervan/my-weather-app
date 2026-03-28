@@ -34,6 +34,8 @@ def get_weather(city, use_fahrenheit=False):
     local_time = datetime.fromtimestamp(current["time"], tz=local_tz)
 
     print(f"\nWeather for {name}, {country}")
+    print(f"  Latitude    : {lat}")
+    print(f"  Longitude   : {lon}")
     print(f"  Local time  : {local_time.strftime('%Y-%m-%d %H:%M')} ({timezone_str})")
     print(f"  Temperature : {temp}{units['temperature_2m']}")
     print(f"  Humidity    : {humidity}{units['relative_humidity_2m']}")
